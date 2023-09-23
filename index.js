@@ -66,9 +66,15 @@ if (true) {
 
 console.log(y); // Outputs: 5 (global 'y' is unchanged)
 
-console.log(b); // ReferenceError: Cannot access 'b' before initialization
-let b = 10;
-console.log(b); // Outputs: 10
+// console.log(b2); // ReferenceError: Cannot access 'b' before initialization
+let b2 = 10;
+console.log(b2); // Outputs: 10
 
 const c = 15;
 // c = 20; // Error: Assignment to constant variable
+
+console.log(rrr)
+const rrr = 35
+// rrr=45
+// console.log(rrr)
+
