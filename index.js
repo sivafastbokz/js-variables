@@ -4,9 +4,9 @@ example = 'something'
 var example;
 console.log(example)
 // declaration
-var a;
+// var a;
 // initialization 
-a = 10;
+// a = 10;
 // declaration is the act of creating a variable, 
 // while initialization is the act of assigning an initial value to that variable.
 
@@ -27,8 +27,10 @@ var xx = 25
 console.log(xx)
 // let zz =20
 // let zz =25
+// console.log(zz)
 // const yy =20
 // const yy = 25
+// console.log(yy)
 // the var declaration's initializer always overrides the previous value
 // var declarations cannot be in the same scope as a let, const,
 // var a = 1;
@@ -47,7 +49,6 @@ var e = 1;
 console.log(e)
 
 var x = 5; // Reassignable variable in global scope
-
 if (true) {
   var x = 10; // This reassigns the global 'x' variable
   console.log(x);
@@ -73,8 +74,39 @@ console.log(b2); // Outputs: 10
 const c = 15;
 // c = 20; // Error: Assignment to constant variable
 
-console.log(rrr)
-const rrr = 35
+// console.log(rrr)
+// const rrr = 35
 // rrr=45
 // console.log(rrr)
 
+// console.log(b)
+// let a = 10
+// var b =100
+
+
+// let a;
+// a = 10;
+// console.log(a)
+// const b;   //const declaration must be initialized
+// b=12
+// console.log(b)
+
+//always push teh declaration and initialization to the top
+
+let ee = 10
+{
+  let ee = 20
+  console.log(ee)
+}
+console.log(ee)  //this called shadowing you can shadow  let with or const with const but u cannot shadow with let with
+//var or const with var
+
+//this called lexical scope one in another
+const aa = 20
+{
+  const aa = 22
+  {
+    const aa = 23
+    console.log(aa)
+  }
+}
