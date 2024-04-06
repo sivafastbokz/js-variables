@@ -56,7 +56,6 @@ if (true) {
 
 console.log(x); // Outputs: 10
 
-
 // The let declaration declares re-assignable, block-scoped local variables, optionally initializing each to a value.
 let y = 5; // Block-scoped reassignable variable
 
@@ -83,7 +82,6 @@ const c = 15;
 // let a = 10
 // var b =100
 
-
 // let a;
 // a = 10;
 // console.log(a)
@@ -91,7 +89,7 @@ const c = 15;
 // b=12
 // console.log(b)
 
-//always push teh declaration and initialization to the top
+//always put the declaration and initialization to the top
 
 let ee = 10
 {
