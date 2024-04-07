@@ -11,16 +11,10 @@ console.log(example)
 // while initialization is the act of assigning an initial value to that variable.
 
 // hoisting
-console.log(b)
-var b = 10
-console.log(b)
-// Hoisting is a JavaScript behavior that moves variable declarations to the top of their scope, 
-// but it doesn't move the initializations, so variables are initially undefined until they are assigned a value.
-// This is implicitly understood as:
-// var b;
-// console.log(b)
-// b = 10;
-// console.log(b)
+console.log(b) //undefiend
+var b = 10  //var variable is hoisted in the global scope
+console.log(b) //10
+//the variables are initially undefined until they are assigned a value.
 
 var xx = 20
 var xx = 25
@@ -58,7 +52,6 @@ console.log(x); // Outputs: 10
 
 // The let declaration declares re-assignable, block-scoped local variables, optionally initializing each to a value.
 let y = 5; // Block-scoped reassignable variable
-
 if (true) {
   let y = 10; // This creates a new block-scoped 'y' variable
   console.log(y); // Outputs: 10
