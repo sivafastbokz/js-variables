@@ -83,7 +83,6 @@ const c = 15;
 // console.log(b)
 
 //always put the declaration and initialization to the top
-
 let ee = 10
 {
   let ee = 20
